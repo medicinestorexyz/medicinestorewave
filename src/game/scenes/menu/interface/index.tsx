@@ -30,7 +30,9 @@ export const MenuUI: React.FC<Props> = ({ defaultPage }) => {
     <Overlay>
       <Wrapper>
         <Sidebar>
-          <Logotype src="assets/logotype.png" />
+          <a href="https://www.medicinestore.xyz" target="_blank">
+            <Logotype src="assets/logotype.png" />
+          </a>
           <Navigation page={page} onSelect={setPage} />
           <Copyright />
         </Sidebar>

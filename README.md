@@ -5,7 +5,7 @@
 Your task is to survive on chosen planet as many waves as possible. 
 With each wave count of enemies and their characteristics will grow.
 
-Build walls to defend, towers to attack, ammunitions to reload towers and generators to get more resources.
+Build walls to defend, towers to attack, ammunitions to reload towers and labs to get more resources.
 
 And also upgrade skills of your character and his assistant.
 

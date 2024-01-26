@@ -38,7 +38,7 @@ export const Main = styled.div`
 `;
 
 export const Logotype = styled.img`
-  height: 50px;
+  height: 130px;
   margin-bottom: 50px;
   @media ${INTERFACE_MOBILE_BREAKPOINT} {
     margin-bottom: 30px;

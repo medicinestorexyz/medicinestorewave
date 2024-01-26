@@ -2,7 +2,7 @@ export const EN = {
   /**
    * Wave info
    */
-  WAVE_ENEMIES: 'Enemies',
+  WAVE_ENEMIES: 'Drug Dealers',
   WAVE_TIMELEFT: 'Timeleft',
   WAVE: 'Wave',
   SKIP_WAVE_TIMELEFT: 'Start wave\nprematurely',
@@ -13,20 +13,20 @@ export const EN = {
   BUILDING: 'Building',
   BUILDING_NAME_WALL: 'Wall',
   BUILDING_DESCRIPTION_WALL: 'Defends other buildings',
-  BUILDING_NAME_TOWER_FIRE: 'Fire tower',
-  BUILDING_DESCRIPTION_TOWER_FIRE: 'Basic fire attack of enemies',
+  BUILDING_NAME_TOWER_FIRE: 'Heizenberger',
+  BUILDING_DESCRIPTION_TOWER_FIRE: 'Basic chemical attack to burn pedobots',
   BUILDING_NAME_TOWER_FROZEN: 'Frozen tower',
-  BUILDING_DESCRIPTION_TOWER_FROZEN: 'Freezes enemies for some time',
+  BUILDING_DESCRIPTION_TOWER_FROZEN: 'Freezes pedobots for some time',
   BUILDING_NAME_TOWER_LAZER: 'Laser tower',
-  BUILDING_DESCRIPTION_TOWER_LAZER: 'Instant and continuous laser attack of enemies',
+  BUILDING_DESCRIPTION_TOWER_LAZER: 'Instant and continuous anti pedobot laser',
   BUILDING_NAME_TOWER_ELECTRO: 'Electro tower',
   BUILDING_DESCRIPTION_TOWER_ELECTRO: 'Mass electric shock',
-  BUILDING_NAME_GENERATOR: 'Generator',
-  BUILDING_DESCRIPTION_GENERATOR: 'Generates resources for builds and upgrades',
+  BUILDING_NAME_GENERATOR: 'Lab',
+  BUILDING_DESCRIPTION_GENERATOR: 'Generates income',
   BUILDING_NAME_AMMUNITION: 'Ammunition',
-  BUILDING_DESCRIPTION_AMMUNITION: 'Reloads towers ammo within building radius',
+  BUILDING_DESCRIPTION_AMMUNITION: 'Reloads towers\' ammo within the radius',
   BUILDING_NAME_RADAR: 'Radar',
-  BUILDING_DESCRIPTION_RADAR: 'Uncovers enemies within building radius',
+  BUILDING_DESCRIPTION_RADAR: 'Shows disguised pedobots within its radius',
   BUILDING_NAME_BOOSTER: 'Booster',
   BUILDING_DESCRIPTION_BOOSTER: 'Increases towers efficiency',
   BUILDING_CATEGORY_DEFENSE: 'Defense',
@@ -95,7 +95,7 @@ export const EN = {
    * Ads
    */
   ADS_SHOW: 'Watch a video and get a reward',
-  ADS_UNLOCK: 'Unlock extra superskill by watching video',
+  ADS_UNLOCK: 'Unlock extra superskill by watchin a video',
 
   /**
    * Unlocks
@@ -113,15 +113,15 @@ export const EN = {
    */
   SUPERSKILL: 'Superskill',
   SUPERSKILL_NAME_INVISIBLE: 'Invisible',
-  SUPERSKILL_DESCRIPTION_INVISIBLE: 'Hides character from enemies',
+  SUPERSKILL_DESCRIPTION_INVISIBLE: 'Hides character from pedobots',
   SUPERSKILL_NAME_FROST: 'Frost',
-  SUPERSKILL_DESCRIPTION_FROST: 'Freezes all enemies',
+  SUPERSKILL_DESCRIPTION_FROST: 'Freezes all pedobots',
   SUPERSKILL_NAME_RAGE: 'Rage',
   SUPERSKILL_DESCRIPTION_RAGE: 'Doubles towers damage',
   SUPERSKILL_NAME_SHIELD: 'Shield',
   SUPERSKILL_DESCRIPTION_SHIELD: 'Prevents damage to all buildings',
   SUPERSKILL_NAME_FIRE: 'Fire',
-  SUPERSKILL_DESCRIPTION_FIRE: 'Deals damage to all enemies',
+  SUPERSKILL_DESCRIPTION_FIRE: 'Deals damage to all pedobots',
 
   /**
    * Tutorial
@@ -132,9 +132,9 @@ export const EN = {
   TUTORIAL_RESOURCES: 'If resources are not enough,\nyou can find crystals on the map',
   TUTORIAL_BUILD_GENERATOR: 'Build generator\nto get resources',
   TUTORIAL_BUILD_GENERATOR_SECOND: 'Build second generator\nto get more resources',
-  TUTORIAL_BUILD_TOWER_FIRE: 'Build tower\nto attack enemies',
+  TUTORIAL_BUILD_TOWER_FIRE: 'Recruit dealers\nto attack pedobots',
   TUTORIAL_BUILD_AMMUNITION: 'Build ammunition\nto reload towers',
-  TUTORIAL_BUILD_RADAR: 'Build radar\nto uncover enemies',
+  TUTORIAL_BUILD_RADAR: 'Build radar\nto uncover disguised pedobots',
   TUTORIAL_STOP_BUILD: 'Use [Right click] to stop build',
   TUTORIAL_RELOAD_TOWER: 'Build ammunition nearby',
   TUTORIAL_CLICK_TO_BUY_AMMO: 'Click to buy ammo',
@@ -219,17 +219,17 @@ export const EN = {
   RECORD: 'Record',
   TOTAL_SCORE: 'Total score',
   WAVES_COMPLETED: 'Waves completed',
-  ENEMIES_KILLED: 'Enemies killed',
+  ENEMIES_KILLED: 'Dealers neutralised',
   MINUTES_LIVED: 'Minutes lived',
 
   /**
    * About game
    */
   GAME_DESCRIPTION: [
-    'Your task is to survive on chosen planet for as many waves as possible.',
-    'With each wave, count of enemies and their characteristics will grow.\n',
-    'Build walls for defense, towers for attack, ammunition for reloading towers,',
+    'Your task is to survive for as many waves as possible.',
+    'With each wave, count of pedobots and their strength will rise.\n',
+    'Build walls to defend, towers to attack, ammunition towers for reloading towers',
     'and generators for getting more resources.\n',
-    'Also, upgrade the skills of your character and his assistant.',
+    'Also, upgrade the skills of your character and assistant.',
   ].join('\n'),
 };

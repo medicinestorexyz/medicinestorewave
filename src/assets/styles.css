@@ -43,15 +43,15 @@ img {
 }
 
 #loading #loading-status {
-  font: 14px 'Verdana';
+  font: 44px 'Verdana' !important;
   font-weight: bold;
   font-size: 2vh;
   line-height: 3vh;
   letter-spacing: 1px;
   position: fixed;
   text-align: center;
-  color: #fff;
+  color: white;
   left: 50%;
-  top: 75%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
