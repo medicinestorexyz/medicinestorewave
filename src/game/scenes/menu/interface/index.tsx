@@ -8,7 +8,7 @@ import { Content } from './content';
 import { Copyright } from './copyright';
 import { Navigation } from './navigation';
 import {
-  Wrapper, Logotype, Sidebar, Main,
+  Wrapper, Logotype, Sidebar, Main, Link
 } from './styles';
 
 type Props = {
@@ -30,9 +30,9 @@ export const MenuUI: React.FC<Props> = ({ defaultPage }) => {
     <Overlay>
       <Wrapper>
         <Sidebar>
-          <a href="https://www.medicinestore.xyz" target="_blank">
+          <Link href="https://www.medicinestore.xyz">
             <Logotype src="assets/logotype.png" />
-          </a>
+          </Link>
           <Navigation page={page} onSelect={setPage} />
           <Copyright />
         </Sidebar>

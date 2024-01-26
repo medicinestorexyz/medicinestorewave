@@ -37,6 +37,11 @@ export const Main = styled.div`
   }
 `;
 
+export const Link = styled.a`
+  color: #fff;
+  pointer-events: all;
+`;
+
 export const Logotype = styled.img`
   height: 130px;
   margin-bottom: 50px;

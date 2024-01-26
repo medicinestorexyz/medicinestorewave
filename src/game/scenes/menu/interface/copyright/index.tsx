@@ -15,9 +15,15 @@ export const Copyright: React.FC = () => (
           {pkg.author.name}
         </Link>
       </Author>
+      <Author>
+        Reskinned by{' '}
+        <Link href="https://medicinestore.xyz" target="_blank">
+          MedicineStore.XYZ
+        </Link>
+      </Author>
       Version {pkg.version}
     </About>
-    <Discord href='https://discord.gg/cnFAdMsRxn' target="_blank">
+    <Discord href='https://discord.gg/VXptmyVK' target="_blank">
       <Icon src='assets/discord.png' />
       DISCORD
     </Discord>
