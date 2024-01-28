@@ -1,6 +1,6 @@
  🟨 _After version 1.18.5, development has been moved to the private repository._
 
-## ![IZOWAVE](./docs/logotype-large.png)
+## ![DealerWave](./docs/logotype-large.png)
 
 Your task is to survive on chosen planet as many waves as possible. 
 With each wave count of enemies and their characteristics will grow.
