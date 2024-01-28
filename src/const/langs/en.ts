@@ -15,7 +15,7 @@ export const EN = {
   BUILDING_DESCRIPTION_WALL: 'Defends other buildings',
   BUILDING_NAME_TOWER_FIRE: 'Heizenberger',
   BUILDING_DESCRIPTION_TOWER_FIRE: 'Basic chemical attack to burn pedobots',
-  BUILDING_NAME_TOWER_FROZEN: 'Frozen tower',
+  BUILDING_NAME_TOWER_FROZEN: 'Pink\'r\'man',
   BUILDING_DESCRIPTION_TOWER_FROZEN: 'Freezes pedobots for some time',
   BUILDING_NAME_TOWER_LAZER: 'Tonyo\' Mountana',
   BUILDING_DESCRIPTION_TOWER_LAZER: 'Instant and continuous anti pedobot attack',
