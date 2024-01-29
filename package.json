@@ -48,6 +48,7 @@
     "vite-plugin-zip-pack": "1.0.6"
   },
   "dependencies": {
+    "@web3modal/siwe": "^3.5.7",
     "@web3modal/wagmi1": "^4.0.0-544a28f1",
     "events": "3.3.0",
     "gen-biome": "2.4.0",
@@ -65,6 +66,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neki-dev/izowave.git"
+    "url": "git+https://github.com/medicinestorexyz/medicinestorewave.git"
   }
 }

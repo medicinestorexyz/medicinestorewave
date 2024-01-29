@@ -6,6 +6,35 @@ import pkg from '../package.json';
 
 import { Game } from '~game';
 
+// Web3 wallet LOGIC: 
+
+import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi1'
+
+import { mainnet, arbitrum } from 'viem/chains'
+
+// 1. Define constants
+const projectId = '25c26fd34edf969870ce0e54e30eb6db'
+
+// 2. Create wagmiConfig
+const metadata = {
+  name: 'DealerWave | Web3Modal by medicinestore.xyz',
+  description: 'Web3Modal for DealerWave game by medicinestore.xyz',
+  url: 'https://medicinestore.xyz',
+  icons: ['https://medicinestore.xyz/pills-bg.png']
+}
+
+const chains = [mainnet, arbitrum]
+const config = defaultWagmiConfig({ chains, projectId, metadata })
+
+const modal = createWeb3Modal({
+  wagmiConfig: config,
+  projectId,
+  enableAnalytics: true // Optional - defaults to your Cloud configuration
+})
+
+
+// GAME LOGIC:
+
 const game = new Game();
 
 if (ENV_MODE === GamePlatform.DEVELOPMENT) {
@@ -27,6 +56,7 @@ window.matchMedia('(orientation: landscape)')
 console.clear();
 console.log([
   `Created by ${pkg.author.name} / ${pkg.author.url}`,
+  `Reskinned by MedicineStore.XYZ / https://medicinestore.xyz`,
   `Build v${pkg.version}-${ENV_MODE}`,
   `Open-Source at ${pkg.repository.url.replace('git+', '')}`,
 ].join('\n'));
