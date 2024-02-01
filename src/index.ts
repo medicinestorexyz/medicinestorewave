@@ -8,7 +8,7 @@ import pkg from '../package.json';
 import { Game } from '~game';
 
 // Web3 wallet LOGIC: 
-
+// @ts-ignore
 import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi1'
 
 import { arbitrum } from 'viem/chains'
