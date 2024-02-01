@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { removeFailure, throwFailure } from '~lib/state';
 import { GamePlatform } from '~type/game';
 import { FailureType } from '~type/state';
@@ -10,7 +11,7 @@ import { Game } from '~game';
 
 import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi1'
 
-import { mainnet, arbitrum } from 'viem/chains'
+import { arbitrum } from 'viem/chains'
 
 // 1. Define constants
 const projectId = '25c26fd34edf969870ce0e54e30eb6db'
@@ -23,15 +24,18 @@ const metadata = {
   icons: ['https://medicinestore.xyz/pills-bg.png']
 }
 
-const chains = [mainnet, arbitrum]
+const chains = [ arbitrum ]
+// const chains = [ { ...arbitrum, id: arbitrum?.id?.toString()} ]
+// @ts-ignore
 const config = defaultWagmiConfig({ chains, projectId, metadata })
-
+// @ts-ignore
 const modal = createWeb3Modal({
   wagmiConfig: config,
   projectId,
   enableAnalytics: true // Optional - defaults to your Cloud configuration
 })
 
+window.modal = modal
 
 // GAME LOGIC:
 

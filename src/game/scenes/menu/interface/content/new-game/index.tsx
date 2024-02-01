@@ -1,3 +1,5 @@
+// ts-nocheck
+// @ts-nocheck
 import Phaser from 'phaser';
 import { useGame } from 'phaser-react-ui';
 import React, { useMemo, useState } from 'react';
@@ -10,6 +12,12 @@ import { LevelPlanet } from '~type/world/level';
 import { Param } from './param';
 import { Record } from './record';
 import { Wrapper, Params } from './styles';
+
+declare global {
+  interface Window {
+      modal:any;
+  }
+}
 
 export const NewGame: React.FC = () => {
   const game = useGame<IGame>();
@@ -60,6 +68,15 @@ export const NewGame: React.FC = () => {
         />
       </Params>
       <Record value={score} />
+      {// <w3m-button onClick={() => modal.open()} />
+      }
+      <Button onClick={() => {
+        // @ts-ignore
+        window && window?.modal.open()
+        onClickStart()
+      }} view='primary'>
+        Connect Web3 Wallet
+      </Button>
       <Button onClick={onClickStart} view='primary' size="large">
         {phrase('START')}
       </Button>

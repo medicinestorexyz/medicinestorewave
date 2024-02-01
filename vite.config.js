@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import react from '@vitejs/plugin-react';
 import alias from 'alias-reuse';
 import { defineConfig } from 'vite';

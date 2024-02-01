@@ -59,7 +59,7 @@ export const EN = {
   TIME_SCALE: 'Increase time speed\nduring wave',
   BUILDING_INDICATORS: 'Display buildings\nhealth and ammo',
   AUTO_REPAIR: 'Auto buy ammo\nand repair buildings',
-  PATH_TO_CRYSTAL: 'Display path\nto nearest crystal',
+  PATH_TO_CRYSTAL: 'Display path\nto nearest crystalmETH',
 
   /**
    * Assistant
@@ -129,9 +129,9 @@ export const EN = {
   TUTORIAL_SKIP_TIMELEFT: 'Click to start\nwave prematurely',
   TUTORIAL_CLICK_TO_UPGRADE: 'Click to upgrade',
   TUTORIAL_HOVER_TO_UPGRADE: 'Hover and press [E]\nto upgrade',
-  TUTORIAL_RESOURCES: 'If resources are not enough,\nyou can find crystals on the map',
-  TUTORIAL_BUILD_GENERATOR: 'Build generator\nto get resources',
-  TUTORIAL_BUILD_GENERATOR_SECOND: 'Build second generator\nto get more resources',
+  TUTORIAL_RESOURCES: 'If resources are not enough,\nyou can find crystalmETHs on the map',
+  TUTORIAL_BUILD_GENERATOR: 'Build labs\nto get resources',
+  TUTORIAL_BUILD_GENERATOR_SECOND: 'Build second lab\nto get more resources',
   TUTORIAL_BUILD_TOWER_FIRE: 'Recruit dealers\nto attack pedobots',
   TUTORIAL_BUILD_AMMUNITION: 'Build ammunition\nto reload towers',
   TUTORIAL_BUILD_RADAR: 'Build radar\nto uncover disguised pedobots',
