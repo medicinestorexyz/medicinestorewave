@@ -32,3 +32,12 @@ export const Amount = styled.div`
   font-size: 26px;
   line-height: 26px;
 `;
+
+export const Currency = styled.div`
+  margin-top: -3px;
+  margin-left: 5px;
+  color: gray;
+  font-family: ${InterfaceFont.PIXEL_LABEL};
+  font-size: 20px;
+  line-height: 26px;
+`;

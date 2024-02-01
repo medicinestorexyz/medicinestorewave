@@ -67,15 +67,13 @@ export const NewGame: React.FC = () => {
           onChange={onChangeDifficulty}
         />
       </Params>
-      <Record value={score} />
-      {// <w3m-button onClick={() => modal.open()} />
-      }
+      <Record value={score} difficulty={game.difficulty} />
       <Button onClick={() => {
         // @ts-ignore
         window && window?.modal.open()
         onClickStart()
-      }} view='primary'>
-        Connect Web3 Wallet
+      }} view='primary' size="large">
+        Connect Web3 Wallet and Start
       </Button>
       <Button onClick={onClickStart} view='primary' size="large">
         {phrase('START')}

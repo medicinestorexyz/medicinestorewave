@@ -3,7 +3,7 @@
 ## ![DealerWave](./docs/logotype-large.png)
 
 Your task is to survive on chosen planet as many waves as possible. 
-With each wave count of pedobot enemies and their characteristics will grow.
+With each wave count of drugbot enemies and their characteristics will grow.
 
 Build walls to defend, dealer towers to attack, ammunitions to reload towers and labs to get more resources.
 
