@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Medicine-Store-XYZ-s-workspace-0ldepp.us-east-1.xata.sh/db/medicinestorewave",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

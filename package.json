@@ -50,6 +50,7 @@
   "dependencies": {
     "@web3modal/siwe": "^3.5.7",
     "@web3modal/wagmi1": "^4.0.0-544a28f1",
+    "@xata.io/client": "^0.29.0",
     "events": "3.3.0",
     "gen-biome": "2.4.0",
     "heap": "0.2.7",

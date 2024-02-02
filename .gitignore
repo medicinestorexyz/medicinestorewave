@@ -10,3 +10,5 @@ TODO.md
 *.psd
 *.log
 *.zip
+
+.env

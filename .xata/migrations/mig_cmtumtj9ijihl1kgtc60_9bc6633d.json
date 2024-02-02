@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmtumtj9ijihl1kgtc60",
+  "parentID": "mig_cmtumrb9ijihl1kgtc50",
+  "checksum": "1:9bc6633d14b26b7cdd2d2c3365533b587af3aa7cd0e564ab6fbf24bc12b75543",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "WalletId",
+          "type": "string"
+        },
+        "table": "players"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmtun1b9ijihl1kgtc70",
+  "parentID": "mig_cmtumtj9ijihl1kgtc60",
+  "checksum": "1:5888473b3399b123d4e22bfd6ea40a80cf5fda200a18f85735717bb7e6732290",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "currency",
+          "type": "text"
+        },
+        "table": "players"
+      }
+    }
+  ]
+}

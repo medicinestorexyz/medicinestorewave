@@ -1,0 +1,11 @@
+{
+  "id": "mig_cmtum4j9ijihl1kgtc30",
+  "checksum": "1:9db98e52b23793eb14d79dad7bed6a2aa30b7a5450fdc85a43447671856b56e9",
+  "operations": [
+    {
+      "addTable": {
+        "table": "players"
+      }
+    }
+  ]
+}
