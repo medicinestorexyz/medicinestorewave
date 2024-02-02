@@ -68,16 +68,20 @@ export const NewGame: React.FC = () => {
         />
       </Params>
       <Record value={score} difficulty={game.difficulty} />
-      <Button onClick={() => {
-        // @ts-ignore
-        window && window?.modal.open()
-        onClickStart()
-      }} view='primary' size="large">
-        Connect Web3 Wallet and Start
-      </Button>
-      <Button onClick={onClickStart} view='primary' size="large">
-        {phrase('START')}
-      </Button>
+      {
+        game.difficulty === 'HARD' ? 
+          <Button onClick={() => {
+            // @ts-ignore
+            window && window?.modal.open()
+            onClickStart()
+          }} view='primary' size="large">
+            Connect Web3 Wallet and Start
+          </Button>
+          :
+          <Button onClick={onClickStart} view='primary' size="large">
+            {phrase('START')}
+          </Button>
+      }
     </Wrapper>
   );
 };

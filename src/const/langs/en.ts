@@ -19,8 +19,8 @@ export const EN = {
   BUILDING_DESCRIPTION_TOWER_FROZEN: 'Freezes drugbots for some time',
   BUILDING_NAME_TOWER_LAZER: 'Tonyo\' Mountana',
   BUILDING_DESCRIPTION_TOWER_LAZER: 'Instant and continuous anti drugbot attack',
-  BUILDING_NAME_TOWER_ELECTRO: 'Electro tower',
-  BUILDING_DESCRIPTION_TOWER_ELECTRO: 'Mass electric shock',
+  BUILDING_NAME_TOWER_ELECTRO: 'Pablo Eskobarr',
+  BUILDING_DESCRIPTION_TOWER_ELECTRO: 'Mass cokoin shock',
   BUILDING_NAME_GENERATOR: 'Lab',
   BUILDING_DESCRIPTION_GENERATOR: 'Generates income',
   BUILDING_NAME_AMMUNITION: 'Ammunition',
@@ -231,5 +231,6 @@ export const EN = {
     'Build walls to defend, towers to attack, ammunition towers for reloading towers',
     'and generators for getting more resources.\n',
     'Also, upgrade the skills of your character and assistant.',
+    'If you play in hard mode, you can earn SOBR tokens, which can be spent in various places afterwards.'
   ].join('\n'),
 };
