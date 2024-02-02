@@ -9,6 +9,8 @@ Build walls to defend, dealer towers to attack, ammunitions to reload towers and
 
 And also upgrade skills of your character and his assistant first aid bag.
 
+If you play in hard mode, you can earn SOBR tokens, which can be spent in various places afterwards.
+
 **Join Discord - https://discord.gg/VXptmyVK**
 
 ## 🎮 [PLAY NOW](https://izowave.neki.guru/)
