@@ -1,6 +1,6 @@
  🟨 _After version 1.18.5, development has been moved to the private repository._
 
-## ![DealerWave](./docs/logotype-large.png)
+## [DealerWave](https://medicinestorewave.vercel.app/)
 
 Your task is to survive on chosen planet as many waves as possible. 
 With each wave count of drugbot enemies and their characteristics will grow.
@@ -13,10 +13,7 @@ If you play in hard mode, you can earn SOBR tokens, which can be spent in variou
 
 **Join Discord - https://discord.gg/VXptmyVK**
 
-## 🎮 [PLAY NOW](https://izowave.neki.guru/)
-  * *Itch.io* / https://neki-dev.itch.io/izowave
-  * *CrazyGames* / https://www.crazygames.com/game/izowave---build-and-defence
-  * *Poki* / https://poki.com/en/g/izowave-build-and-defend
+## 🎮 [PLAY NOW](https://medicinestorewave.vercel.app/)
 
 .
 
